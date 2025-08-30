@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [spreadsheet_dashboard](https://github.com/bringout/oca-ocb-report/tree/81d71123550c2c3b634c215ba614cb7229a5c93c/odoo-bringout-oca-ocb-spreadsheet_dashboard)
-- [hr_timesheet](https://github.com/bringout/oca-ocb-hr/tree/dc1405e12dbe76ffb119a0feb323b56ae2c58522/odoo-bringout-oca-ocb-hr_timesheet)
+- [spreadsheet_dashboard](https://github.com/bringout/oca-ocb-report/tree/1fa5e9aba1b5bd77f5cd2aaa7f6c249351fee6c6/odoo-bringout-oca-ocb-spreadsheet_dashboard)
+- [hr_timesheet](https://github.com/bringout/oca-ocb-hr/tree/eb4b035c2ae30a52ff9d18cecd2b898328021028/odoo-bringout-oca-ocb-hr_timesheet)
