@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [spreadsheet_dashboard](../../../../odoo-bringout-oca-ocb-spreadsheet_dashboard)
-- [hr_expense](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr_expense)
+- [spreadsheet_dashboard](https://github.com/bringout/oca-ocb-report)
+- [hr_expense](https://github.com/bringout/oca-ocb-hr)

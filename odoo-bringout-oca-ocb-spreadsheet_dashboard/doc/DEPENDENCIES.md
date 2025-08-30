@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [spreadsheet](../../../../odoo-bringout-oca-ocb-spreadsheet)
+- [spreadsheet](https://github.com/bringout/oca-ocb-report)
