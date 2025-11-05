@@ -15,51 +15,54 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #. odoo-python
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py:0
+#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (kopija)"
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
 #, python-format
 msgid "An error occured while loading the dashboard"
 msgstr "Došlo je do greške prilikom učitavanja kontrolne table."
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.xml:0
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.xml
 #, python-format
 msgid "BACK"
 msgstr "NAZAD"
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.js:0
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.js
 #, python-format
 msgid "Choose a dashboard...."
 msgstr "Izaberite kontrolnu tablu...."
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_configuration
 msgid "Configuration"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__create_uid
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__create_date
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__dashboard_ids
 msgid "Dashboard"
@@ -70,27 +73,25 @@ msgstr "Nadzorna ploča"
 msgid "Dashboard Group"
 msgstr "Grupa kontrolne table"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_action_configuration_dashboards
-#: model:ir.actions.client,name:spreadsheet_dashboard.ir_actions_dashboard_action
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_configuration_dashboards
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_dashboard
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_root
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_container_view_list
 msgid "Dashboards"
 msgstr "Pregledi"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__data
 msgid "Data"
 msgstr "Podaci"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__display_name
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__display_name
 msgid "Display Name"
 msgstr "Naziv"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__group_ids
 msgid "Group"
@@ -103,78 +104,80 @@ msgstr "Grupa kontrolnih tabli"
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__id
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__id
 msgid "ID"
 msgstr "ID"
 
 #. module: spreadsheet_dashboard
 #. odoo-python
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py:0
+#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py
 #, python-format
 msgid "Invalid JSON Data"
 msgstr "Nevažeći JSON podaci"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard____last_update
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group____last_update
 msgid "Last Modified on"
 msgstr "Zadnja promjena"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_uid
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__write_uid
 msgid "Last Updated by"
 msgstr "Promijenio"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_date
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__write_date
 msgid "Last Updated on"
 msgstr "Vrijeme promjene"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
 #, python-format
 msgid "Loading..."
 msgstr "Učitavanje..."
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__name
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__name
 msgid "Name"
 msgstr "Naziv"
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
 #, python-format
 msgid "No available dashboard"
 msgstr "Nema dostupnih kontrolnih tabli"
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_figure_container/mobile_figure_container.xml:0
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_figure_container/mobile_figure_container.xml
 #, python-format
 msgid ""
 "Only chart figures are displayed in small screens but this dashboard doesn't"
 " contain any"
 msgstr ""
+"Na malim ekranima prikazuju se samo grafikoni, ali ova kontrolna tabla ih ne"
+" sadrži."
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__raw
 msgid "Raw"
 msgstr "Sirovo"
 
+# taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__sequence
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 
 #. module: spreadsheet_dashboard
 #. odoo-python
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py:0
+#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py
 #, python-format
 msgid "Sheet1"
 msgstr "List1"
@@ -196,7 +199,7 @@ msgstr "Thumbnail"
 
 #. module: spreadsheet_dashboard
 #. odoo-python
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_group.py:0
+#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_group.py
 #, python-format
 msgid "You cannot delete %s as it is used in another module."
 msgstr "Ne možete izbrisati %s jer se koristi u drugom modulu."
