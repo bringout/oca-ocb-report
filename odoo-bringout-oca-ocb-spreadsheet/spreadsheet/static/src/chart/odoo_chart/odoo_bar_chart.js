@@ -1,18 +1,31 @@
-/** @odoo-module */
-
-import spreadsheet from "@spreadsheet/o_spreadsheet/o_spreadsheet_extended";
+import { registries, chartHelpers } from "@odoo/o-spreadsheet";
 import { _t } from "@web/core/l10n/translation";
 import { OdooChart } from "./odoo_chart";
+import { onOdooChartItemClick, onOdooChartItemHover } from "./odoo_chart_helpers";
 
-const { chartRegistry } = spreadsheet.registries;
+const { chartRegistry } = registries;
 
-const { getDefaultChartJsRuntime, chartFontColor, ChartColors } = spreadsheet.helpers;
+const {
+    getBarChartDatasets,
+    CHART_COMMON_OPTIONS,
+    getChartLayout,
+    getBarChartScales,
+    getBarChartTooltip,
+    getChartTitle,
+    getBarChartLegend,
+    getChartShowValues,
+    getTrendDatasetForBarChart,
+    getTopPaddingForDashboard,
+} = chartHelpers;
 
 export class OdooBarChart extends OdooChart {
     constructor(definition, sheetId, getters) {
         super(definition, sheetId, getters);
         this.verticalAxisPosition = definition.verticalAxisPosition;
         this.stacked = definition.stacked;
+        this.axesDesign = definition.axesDesign;
+        this.horizontal = definition.horizontal;
+        this.zoomable = definition.zoomable;
     }
 
     getDefinition() {
@@ -20,6 +33,10 @@ export class OdooBarChart extends OdooChart {
             ...super.getDefinition(),
             verticalAxisPosition: this.verticalAxisPosition,
             stacked: this.stacked,
+            axesDesign: this.axesDesign,
+            trend: this.trend,
+            horizontal: this.horizontal,
+            zoomable: this.zoomable,
         };
     }
 }
@@ -38,63 +55,44 @@ chartRegistry.add("odoo_bar", {
 function createOdooChartRuntime(chart, getters) {
     const background = chart.background || "#FFFFFF";
     const { datasets, labels } = chart.dataSource.getData();
-    const chartJsConfig = getBarConfiguration(chart, labels);
-    const colors = new ChartColors();
-    for (const { label, data } of datasets) {
-        const color = colors.next();
-        const dataset = {
-            label,
-            data,
-            borderColor: color,
-            backgroundColor: color,
-        };
-        chartJsConfig.data.datasets.push(dataset);
-    }
+    const definition = chart.getDefinition();
 
-    return { background, chartJsConfig };
-}
+    const trendDataSetsValues = datasets.map((dataset, index) => {
+        const trend = definition.dataSets[index]?.trend;
+        return !trend?.display || chart.horizontal
+            ? undefined
+            : getTrendDatasetForBarChart(trend, dataset.data);
+    });
 
-function getBarConfiguration(chart, labels) {
-    const fontColor = chartFontColor(chart.background);
-    const config = getDefaultChartJsRuntime(chart, labels, fontColor);
-    config.type = chart.type.replace("odoo_", "");
-    const legend = {
-        ...config.options.legend,
-        display: chart.legendPosition !== "none",
-        labels: { fontColor },
+    const chartData = {
+        labels,
+        dataSetsValues: datasets.map((ds) => ({ data: ds.data, label: ds.label })),
+        locale: getters.getLocale(),
+        trendDataSetsValues,
+        topPadding: getTopPaddingForDashboard(definition, getters),
     };
-    legend.position = chart.legendPosition;
-    config.options.legend = legend;
-    config.options.layout = {
-        padding: { left: 20, right: 20, top: chart.title ? 10 : 25, bottom: 10 },
-    };
-    config.options.scales = {
-        xAxes: [
-            {
-                ticks: {
-                    // x axis configuration
-                    maxRotation: 60,
-                    minRotation: 15,
-                    padding: 5,
-                    labelOffset: 2,
-                    fontColor,
-                },
+
+    const config = {
+        type: "bar",
+        data: {
+            labels: chartData.labels,
+            datasets: getBarChartDatasets(definition, chartData),
+        },
+        options: {
+            ...CHART_COMMON_OPTIONS,
+            indexAxis: chart.horizontal ? "y" : "x",
+            layout: getChartLayout(definition, chartData),
+            scales: getBarChartScales(definition, chartData),
+            plugins: {
+                title: getChartTitle(definition, getters),
+                legend: getBarChartLegend(definition, chartData),
+                tooltip: getBarChartTooltip(definition, chartData),
+                chartShowValuesPlugin: getChartShowValues(definition, chartData),
             },
-        ],
-        yAxes: [
-            {
-                position: chart.verticalAxisPosition,
-                ticks: {
-                    fontColor,
-                    // y axis configuration
-                    beginAtZero: true, // the origin of the y axis is always zero
-                },
-            },
-        ],
+            onHover: onOdooChartItemHover(),
+            onClick: onOdooChartItemClick(getters, chart),
+        },
     };
-    if (chart.stacked) {
-        config.options.scales.xAxes[0].stacked = true;
-        config.options.scales.yAxes[0].stacked = true;
-    }
-    return config;
+
+    return { background, chartJsConfig: config };
 }

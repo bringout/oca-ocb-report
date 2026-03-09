@@ -1,165 +1,178 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet_dashboard_hr_expense
-# 
-# Translators:
-# M.Hossein S.Farvashani <Farvashani@gmail.com>, 2023
-# F Hariri <fhari1234@gmail.com>, 2023
-# Hanna Kheradroosta, 2023
-# Martin Trigaux, 2023
-# Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0+e\n"
+"Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 12:44+0000\n"
-"PO-Revision-Date: 2022-09-29 09:44+0000\n"
-"Last-Translator: Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2024\n"
-"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"POT-Creation-Date: 2026-01-25 18:37+0000\n"
+"PO-Revision-Date: 2024-10-25 07:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: \n"
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "# Expenses"
-msgstr "# هزینه ها"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Category"
-msgstr "دسته بندی"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Employee"
-msgstr "کارمند"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Expense"
-msgstr "هزینه"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_hr_expense.spreadsheet_dashboard_expense
 msgid "Expenses"
-msgstr "هزینه ها"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Expenses Analysis"
-msgstr "تجزیه و تحلیل هزینه"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "KPI - Expenses"
-msgstr "شاخص کلیدی عملکرد - هزینه‌ها"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "KPI - To reimburse"
-msgstr "شاخص کلیدی عملکرد - برای بازپرداخت"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "KPI - To report"
-msgstr "شاخص کلیدی عملکرد - برای گزارش‌دهی"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "KPI - To validate"
-msgstr "شاخص کلیدی عملکرد - برای تأیید"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_expense
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
+msgid "Meals"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_expense
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
+msgid "Mileage"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
+msgid "Order"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_expense
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
 msgid "Period"
-msgstr "دوره"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
 msgid "Product"
-msgstr "محصول"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "To reimburse"
-msgstr "بازپرداخت کردن"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "To report"
-msgstr "گزارش دادن"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "To validate"
-msgstr "برای تایید"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Top Categories"
-msgstr "دسته بندی های برتر"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Top Employees"
-msgstr "کارمندان برتر"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Top Expenses"
-msgstr "بیشترین هزینه‌ها"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_expense
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
-#, python-format
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
+msgid "Top Reinvoiced Orders"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_expense
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Total"
-msgstr "جمع کل:"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_expense
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
+msgid "Travel"
+msgstr ""

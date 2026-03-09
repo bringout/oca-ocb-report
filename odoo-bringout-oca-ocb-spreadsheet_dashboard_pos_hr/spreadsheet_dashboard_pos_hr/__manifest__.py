@@ -3,16 +3,15 @@
 {
     'name': "Spreadsheet dashboard for point of sale",
     'version': '1.0',
-    'category': 'Hidden',
+    'category': 'Productivity/Dashboard',
     'summary': 'Spreadsheet',
     'description': 'Spreadsheet',
     'depends': ['spreadsheet_dashboard', 'pos_hr'],
     'data': [
         "data/dashboards.xml",
     ],
-    'demo': [],
     'installable': True,
     'auto_install': ['pos_hr'],
+    'author': 'Odoo S.A.',
     'license': 'LGPL-3',
-    'assets': {}
 }

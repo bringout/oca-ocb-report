@@ -1,261 +1,174 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet_dashboard_hr_timesheet
-# 
-# Translators:
-# Martin Trigaux, 2022
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023
-# Wil Odoo, 2023
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-06 13:32+0000\n"
-"PO-Revision-Date: 2022-09-29 09:44+0000\n"
-"Last-Translator: Wil Odoo, 2023\n"
-"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
+"POT-Creation-Date: 2026-01-25 18:37+0000\n"
+"PO-Revision-Date: 2024-10-25 07:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: \n"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid " days"
-msgstr " дні"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Assignee"
-msgstr "Призначений"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Assignees"
-msgstr "Уповноважені"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Current"
-msgstr "Поточний"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Customer"
-msgstr "Клієнт"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Days to assign"
-msgstr "Днів для призначення"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Days to close"
-msgstr "Днів до закриття"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Hours Logged"
-msgstr "Записані години"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Hours logged"
-msgstr "Записані години"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "KPI"
-msgstr "KPI"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Period"
-msgstr "Період"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Previous"
-msgstr "Попередній"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_hr_timesheet.spreadsheet_dashboard_tasks
 msgid "Project"
-msgstr "Проект"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Tag"
-msgstr "Мітка"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Tags"
-msgstr "Мітки"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Tasks"
-msgstr "Завдання"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
-msgid "Tasks Analysis by Assignees"
-msgstr "Аналіз завдань по призначеним"
-
-#. module: spreadsheet_dashboard_hr_timesheet
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
-msgid "Tasks Analysis by Customer"
-msgstr "Аналіз завдань по клієнтам"
-
-#. module: spreadsheet_dashboard_hr_timesheet
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
-msgid "Tasks Analysis by Project"
-msgstr "Аналіз завдань по проектам"
-
-#. module: spreadsheet_dashboard_hr_timesheet
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
-msgid "Tasks Analysis by Tags"
-msgstr "Аналіз завдань по тегам"
-
-#. module: spreadsheet_dashboard_hr_timesheet
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Tasks by Stage"
-msgstr "Задання по етапам"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Tasks by State"
-msgstr "Завдання по статусам"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Time to Assign"
-msgstr "Час для призначення"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Time to Close"
-msgstr "Час для закриття"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Top Assignees"
-msgstr "Топ призначених"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Top Customers"
-msgstr "Топ клієнтів"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Top Projects"
-msgstr "Топ проектів"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "Top Tags"
-msgstr "Топ тегів"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "last period"
-msgstr "останній період"
+msgstr ""
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
 msgid "since last period"
-msgstr "з попереднього періоду"
-
-#. module: spreadsheet_dashboard_hr_timesheet
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
-msgid "stats - current"
-msgstr "статуси - поточні"
-
-#. module: spreadsheet_dashboard_hr_timesheet
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
-#, python-format
-msgid "stats - previous"
-msgstr "статуси - попередні"
+msgstr ""

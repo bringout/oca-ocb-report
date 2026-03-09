@@ -1,15 +1,11 @@
-/** @odoo-module */
-
-import spreadsheet from "@spreadsheet/o_spreadsheet/o_spreadsheet_extended";
-import ChartDataSource from "../data_source/chart_data_source";
-
-const { AbstractChart, CommandResult } = spreadsheet;
+import { AbstractChart, CommandResult } from "@odoo/o-spreadsheet";
+import { ChartDataSource, chartTypeToDataSourceMode } from "../data_source/chart_data_source";
 
 /**
  * @typedef {import("@web/search/search_model").SearchParams} SearchParams
  *
  * @typedef MetaData
- * @property {Array<Object>} domains
+ * @property {Object} domain
  * @property {Array<string>} groupBy
  * @property {string} measure
  * @property {string} mode
@@ -24,6 +20,7 @@ const { AbstractChart, CommandResult } = spreadsheet;
  * @property {string} title
  * @property {string} background
  * @property {string} legendPosition
+ * @property {boolean} cumulative
  *
  * @typedef OdooChartDefinitionDataSource
  * @property {MetaData} metaData
@@ -40,11 +37,20 @@ export class OdooChart extends AbstractChart {
     constructor(definition, sheetId, getters) {
         super(definition, sheetId, getters);
         this.type = definition.type;
-        this.metaData = definition.metaData;
+        this.metaData = {
+            ...definition.metaData,
+            mode: chartTypeToDataSourceMode(this.type),
+            cumulated: definition.cumulative,
+            cumulatedStart: definition.cumulatedStart,
+        };
         this.searchParams = definition.searchParams;
         this.legendPosition = definition.legendPosition;
         this.background = definition.background;
         this.dataSource = undefined;
+        this.actionXmlId = definition.actionXmlId;
+        this.showValues = definition.showValues;
+        this._dataSets = definition.dataSets || [];
+        this.humanize = definition.humanize ?? true;
     }
 
     static transformDefinition(definition) {
@@ -64,10 +70,7 @@ export class OdooChart extends AbstractChart {
      */
     getDefinitionForDataSource() {
         return {
-            metaData: {
-                ...this.metaData,
-                mode: this.type.replace("odoo_", ""),
-            },
+            metaData: this.metaData,
             searchParams: this.searchParams,
         };
     }
@@ -84,6 +87,11 @@ export class OdooChart extends AbstractChart {
             metaData: this.metaData,
             searchParams: this.searchParams,
             type: this.type,
+            actionXmlId: this.actionXmlId,
+            showValues: this.showValues,
+            dataSets: this.dataSets,
+            datasetsConfig: this.datasetsConfig,
+            humanize: this.humanize,
         };
     }
 
@@ -103,7 +111,7 @@ export class OdooChart extends AbstractChart {
     /**
      * @returns {OdooChart}
      */
-    copyForSheetId() {
+    duplicateInDuplicatedSheet() {
         return this;
     }
 
@@ -125,9 +133,19 @@ export class OdooChart extends AbstractChart {
     setDataSource(dataSource) {
         if (dataSource instanceof ChartDataSource) {
             this.dataSource = dataSource;
-        }
-        else {
+        } else {
             throw new Error("Only ChartDataSources can be added.");
         }
+    }
+
+    get dataSets() {
+        if (!this.dataSource) {
+            return this.datasetsConfig || [];
+        }
+        if (!this.dataSource.isReady()) {
+            return [];
+        }
+        const data = this.dataSource.getData();
+        return data.datasets.map((ds, index) => this._dataSets?.[index] || {});
     }
 }
