@@ -18,7 +18,7 @@ msgstr ""
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid " days"
 msgstr " dana"
@@ -26,7 +26,7 @@ msgstr " dana"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Assignee"
 msgstr "Dodjeljeno"
@@ -34,7 +34,7 @@ msgstr "Dodjeljeno"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Assignees"
 msgstr "Odgovoran"
@@ -42,7 +42,7 @@ msgstr "Odgovoran"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Current"
 msgstr "Trenutno"
@@ -50,57 +50,57 @@ msgstr "Trenutno"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Customer"
 msgstr "Kupac"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Days to assign"
 msgstr "Dana za dodjeljivanje"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Days to close"
 msgstr "Dana za zatvaranje"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Hours Logged"
 msgstr "Ulogovani sati"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Hours logged"
 msgstr "Ulogovani sati"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "KPI"
 msgstr "KPI"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Period"
-msgstr "Period"
+msgstr ""
 
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Previous"
 msgstr "Prethodni"
@@ -108,7 +108,7 @@ msgstr "Prethodni"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Project"
 msgstr "Projekt"
@@ -116,7 +116,7 @@ msgstr "Projekt"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tag"
 msgstr "Oznaka"
@@ -124,7 +124,7 @@ msgstr "Oznaka"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tags"
 msgstr "Oznake"
@@ -132,7 +132,7 @@ msgstr "Oznake"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tasks"
 msgstr "Zadaci"
@@ -140,49 +140,49 @@ msgstr "Zadaci"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tasks Analysis by Assignees"
 msgstr "Analiza zadataka odgovorne osobe"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tasks Analysis by Customer"
 msgstr "Analiza zadataka po klijentu"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tasks Analysis by Project"
 msgstr "Analiza zadataka po projektu"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tasks Analysis by Tags"
 msgstr "Analiza zadataka po oznakama"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tasks by Stage"
 msgstr "Zadaci po fazi"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Tasks by State"
 msgstr "Zadaci po statusu"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Time to Assign"
 msgstr "Vrijeme dodjeljivanja"
@@ -190,63 +190,63 @@ msgstr "Vrijeme dodjeljivanja"
 # taken from hr.po
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Time to Close"
 msgstr "Vrijeme za zatvaranje"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Top Assignees"
 msgstr "Najpopularniji izvršioci"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Top Customers"
 msgstr "Najvažniji kupci"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Top Projects"
 msgstr "Najvažniji projekti"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "Top Tags"
 msgstr "Najpopularniji tagovi"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "last period"
 msgstr "prošli period"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "since last period"
 msgstr "od prošlog perioda"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "stats - current"
 msgstr "statistike - trenutne"
 
 #. module: spreadsheet_dashboard_hr_timesheet
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 #, python-format
 msgid "stats - previous"
 msgstr "statistike - prethodne"
