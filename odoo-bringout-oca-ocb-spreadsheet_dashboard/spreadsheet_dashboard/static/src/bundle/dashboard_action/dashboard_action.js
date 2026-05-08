@@ -1,3 +1,4 @@
+import { render, useLayoutEffect, useState, useExternalListener } from "@web/owl2/utils";
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { ControlPanel } from "@web/search/control_panel/control_panel";
@@ -9,12 +10,11 @@ import { MobileFigureContainer } from "./mobile_figure_container/mobile_figure_c
 import { useService } from "@web/core/utils/hooks";
 import { standardActionServiceProps } from "@web/webclient/actions/action_service";
 import { SpreadsheetShareButton } from "@spreadsheet/components/share_button/share_button";
-import { useSpreadsheetPrint } from "@spreadsheet/hooks";
 import { Registry } from "@odoo/o-spreadsheet";
 import { router } from "@web/core/browser/router";
 import { useSearchBarToggler } from "@web/search/search_bar/search_bar_toggler";
 
-import { Component, onWillStart, useState, useEffect, useExternalListener } from "@odoo/owl";
+import { Component, onWillStart } from "@odoo/owl";
 import { DashboardSearchBar } from "./dashboard_search_bar/dashboard_search_bar";
 
 export const dashboardActionRegistry = new Registry();
@@ -51,17 +51,17 @@ export class SpreadsheetDashboardAction extends Component {
                 this.openDashboard(activeDashboardId);
             }
         });
-        useEffect(
+        useLayoutEffect(
             () => router.pushState({ dashboard_id: this.activeDashboardId }),
             () => [this.activeDashboardId]
         );
-        useEffect(
+        useLayoutEffect(
             () => {
                 const dashboard = this.loader.getActiveDashboard();
                 if (dashboard && dashboard.status === Status.Loaded) {
-                    const render = () => this.render(true);
-                    dashboard.model.on("update", this, render);
-                    return () => dashboard.model.off("update", this, render);
+                    const onUpdate = () => render(this, true);
+                    dashboard.model.on("update", this, onUpdate);
+                    return () => dashboard.model.off("update", this, onUpdate);
                 }
             },
             () => {
@@ -76,7 +76,6 @@ export class SpreadsheetDashboardAction extends Component {
                 dashboardLoader: this.loader.getState(),
             }),
         });
-        useSpreadsheetPrint(() => this.loader.getActiveDashboard()?.model);
         /** @type {{ sidebarExpanded: boolean}} */
         this.state = useState({ sidebarExpanded: true });
         this.searchBarToggler = useSearchBarToggler();
@@ -190,7 +189,7 @@ export class SpreadsheetDashboardAction extends Component {
     }
 
     logExport() {
-        const dashboard = this.state.activeDashboard;
+        const dashboard = this.loader.getActiveDashboard();
         if (!dashboard || dashboard.status !== Status.Loaded) {
             return;
         }

@@ -9,7 +9,7 @@ import { PublicReadonlySpreadsheet } from "@spreadsheet/public_readonly_app/publ
 import { getMockEnv, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 class Parent extends Component {
-    static template = xml`<Spreadsheet model="props.model"/>`;
+    static template = xml`<Spreadsheet model="this.props.model"/>`;
     static components = { Spreadsheet };
     static props = { model: Model };
     setup() {
@@ -45,7 +45,7 @@ export async function mountSpreadsheet(model) {
 export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "") {
     const env = getMockEnv();
     env.isFrozenSpreadsheet = () => true;
-    mountWithCleanup(PublicReadonlySpreadsheet, {
+    const component = await mountWithCleanup(PublicReadonlySpreadsheet, {
         props: {
             dataUrl,
             downloadExcelUrl,
@@ -55,7 +55,10 @@ export async function mountPublicSpreadsheet(dataUrl, mode, downloadExcelUrl = "
         env,
     });
     await animationFrame();
-    return getFixture();
+    return {
+        fixture: getFixture(),
+        model: component.model,
+    };
 }
 
 export async function doMenuAction(registry, path, env) {

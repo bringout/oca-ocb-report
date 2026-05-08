@@ -356,6 +356,9 @@ export class OdooPivot {
 
     getCollapsedTableStructure() {
         this.assertIsValid();
+        if (this.coreDefinition.style?.tabularForm) {
+            return this.model.getExpandedTableStructure();
+        }
         return this.model.getCollapsedTableStructure();
     }
 
@@ -677,6 +680,9 @@ pivotRegistry.add("ODOO", {
         !field.isCustomField &&
         ["many2one", "char", "one2many", "many2many", "selection"].includes(field.type),
     isGroupable: (field) => field.groupable && pivotNormalizationValueRegistry.contains(field.type),
+    isPivotUnused: (getters, pivotId) =>
+        !getters.isDataSourceLinkedToChart("pivot", pivotId) &&
+        !getters.isPivotUsedInHyperlinks(pivotId),
 });
 
 supportedPivotPositionalFormulaRegistry.add("ODOO", true);

@@ -1,6 +1,8 @@
+import { useEnv, useLayoutEffect } from "@web/owl2/utils";
 import { registries } from "@odoo/o-spreadsheet";
-import { useEffect, useEnv } from "@odoo/owl";
 import { registry } from "@web/core/registry";
+import { DefaultCommandItem } from "@web/core/commands/command_palette";
+import { HotkeyCommandItem } from "@web/core/commands/default_providers";
 
 const { topbarMenuRegistry } = registries;
 const commandProviderRegistry = registry.category("command_provider");
@@ -11,7 +13,7 @@ const commandCategoryRegistry = registry.category("command_categories");
  */
 export function useSpreadsheetCommandPalette() {
     const env = useEnv();
-    useEffect(
+    useLayoutEffect(
         () => {
             setupSpreadsheetCategories(env);
             setupSpreadsheetCommandProvider(env);
@@ -56,12 +58,17 @@ function registerCommand(spreadsheetEnv, menu, parentName, category) {
             }
             const subMenuName = `${subMenu.name(spreadsheetEnv)}`;
             if (subMenu.execute) {
+                const hotkey = subMenu.shortcut;
                 result.push({
+                    Component: hotkey ? HotkeyCommandItem : DefaultCommandItem,
                     action() {
                         subMenu.execute(spreadsheetEnv);
                     },
                     category: subMenu.id === "insert_link" ? "spreadsheet_insert_link" : category,
                     name: `${parentName} / ${subMenuName}`,
+                    props: {
+                        hotkey: hotkey.replace("Ctrl", "control"),
+                    },
                 });
             } else {
                 result.push(

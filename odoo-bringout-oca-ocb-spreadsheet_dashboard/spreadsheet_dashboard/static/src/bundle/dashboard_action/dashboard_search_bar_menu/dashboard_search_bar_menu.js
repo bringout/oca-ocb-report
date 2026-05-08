@@ -1,4 +1,5 @@
-import { Component, onWillStart, useState } from "@odoo/owl";
+import { useState } from "@web/owl2/utils";
+import { Component, onWillStart } from "@odoo/owl";
 import { FilterValue } from "@spreadsheet/global_filters/components/filter_value/filter_value";
 import { _t } from "@web/core/l10n/translation";
 import { getOperatorLabel } from "@web/core/tree_editor/tree_editor_operator_editor";
@@ -6,24 +7,22 @@ import {
     getDefaultValue,
     getEmptyFilterValue,
     getFilterTypeOperators,
+    isEmptyFilterValue,
 } from "@spreadsheet/global_filters/helpers";
 import { useService } from "@web/core/utils/hooks";
-import { isEmptyFilterValue } from "../../helpers";
 import { deepEqual } from "@web/core/utils/objects";
 
 /**
- * This component is used to display a list of all the global filters of a
- * spreadsheet/dashboard. It allows the user to select the values of the filters
- * and confirm or discard the changes.
+ * This component is used to display a list of all the global filters of a dashboard.
+ * It allows the user to select the values of the filters and confirm or discard the changes.
  */
-export class FilterValuesList extends Component {
-    static template = "spreadsheet_dashboard.FilterValuesList";
+export class DashboardSearchBarMenu extends Component {
+    static template = "spreadsheet_dashboard.DashboardSearchBarMenu";
     static components = { FilterValue };
 
     static props = {
         close: Function,
         model: Object,
-        openFiltersEditor: { type: Function, optional: true },
     };
 
     setup() {

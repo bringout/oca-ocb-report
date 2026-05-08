@@ -1,12 +1,14 @@
-import { Component, onWillStart, useState } from "@odoo/owl";
+import { useChildSubEnv, useState } from "@web/owl2/utils";
+import { Component, markRaw, onMounted, onWillStart, onWillUnmount } from "@odoo/owl";
+import { browser } from "@web/core/browser/browser";
 import { useService } from "@web/core/utils/hooks";
 
 import { useSpreadsheetNotificationStore } from "@spreadsheet/hooks";
 
 import * as spreadsheet from "@odoo/o-spreadsheet";
 import { Spreadsheet, Model } from "@odoo/o-spreadsheet";
-import { useSpreadsheetPrint } from "../hooks";
 import { _t } from "@web/core/l10n/translation";
+import { download } from "@web/core/network/download";
 
 spreadsheet.registries.topbarMenuRegistry.addChild("download_public_excel", ["file"], {
     name: _t("Download"),
@@ -14,7 +16,23 @@ spreadsheet.registries.topbarMenuRegistry.addChild("download_public_excel", ["fi
     isReadonlyAllowed: true,
     icon: "o-spreadsheet-Icon.DOWNLOAD",
     isVisible: (env) => env.canDownloadExcel?.(),
+    isEnabledOnLockedSheet: true,
 });
+
+function readSheetIdFromURL() {
+    return new URLSearchParams(browser.location.hash.substring(1)).get("sid") ?? null;
+}
+
+function writeSheetIdToURL(sheetId) {
+    const url = new URL(browser.location.href);
+    const hash = new URLSearchParams(browser.location.hash.substring(1));
+
+    if (hash.get("sid") !== sheetId) {
+        hash.set("sid", sheetId);
+        url.hash = hash.toString();
+        browser.history.replaceState(browser.history.state, null, url);
+    }
+}
 
 export class PublicReadonlySpreadsheet extends Component {
     static template = "spreadsheet.PublicReadonlySpreadsheet";
@@ -31,8 +49,24 @@ export class PublicReadonlySpreadsheet extends Component {
         this.state = useState({
             isFilterShown: false,
         });
-        useSpreadsheetPrint(() => this.model);
-        onWillStart(this.createModel.bind(this));
+        useChildSubEnv({
+            downloadExcel: () =>
+                download({
+                    url: this.props.downloadExcelUrl,
+                    data: {},
+                }),
+            canDownloadExcel: () => Boolean(this.props.downloadExcelUrl),
+        });
+        onWillStart(async () => {
+            await this.createModel();
+            this.syncSheetFromURL();
+        });
+        onMounted(() => {
+            this.model.on("command-dispatched", this, this.syncURLFromSheet);
+        });
+        onWillUnmount(() => {
+            this.model.off("command-dispatched", this);
+        });
     }
 
     get showFilterButton() {
@@ -62,10 +96,31 @@ export class PublicReadonlySpreadsheet extends Component {
             },
             this.data.revisions || []
         );
+        markRaw(this.model);
         if (this.env.debug) {
             // eslint-disable-next-line no-import-assign
             spreadsheet.__DEBUG__ = spreadsheet.__DEBUG__ || {};
             spreadsheet.__DEBUG__.model = this.model;
+        }
+    }
+
+    syncSheetFromURL() {
+        const urlSheetId = readSheetIdFromURL();
+        const sheetIds = this.model.getters.getSheetIds();
+        const activeSheetId = this.model.getters.getActiveSheetId();
+        const targetSheetId = sheetIds.includes(urlSheetId) ? urlSheetId : sheetIds[0];
+        if (activeSheetId !== targetSheetId) {
+            this.model.dispatch("ACTIVATE_SHEET", {
+                sheetIdFrom: activeSheetId,
+                sheetIdTo: targetSheetId,
+            });
+        }
+        writeSheetIdToURL(targetSheetId);
+    }
+
+    syncURLFromSheet(cmd) {
+        if (cmd.type === "ACTIVATE_SHEET" && readSheetIdFromURL() !== cmd.sheetIdTo) {
+            writeSheetIdToURL(cmd.sheetIdTo);
         }
     }
 

@@ -9,21 +9,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-06 18:37+0000\n"
-"PO-Revision-Date: 2026-03-20 09:46+0000\n"
+"POT-Creation-Date: 2026-02-04 18:36+0000\n"
+"PO-Revision-Date: 2026-01-16 05:52+0000\n"
 "Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@odoo.com>\n"
-"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19/"
+"Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-s19-1/"
 "spreadsheet_dashboard/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #. module: spreadsheet_dashboard
 #. odoo-python
 #: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py:0
+#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_group.py:0
 msgid "%s (copy)"
 msgstr "%s (bản sao)"
 
@@ -32,6 +33,11 @@ msgstr "%s (bản sao)"
 #: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
 msgid "(no result)"
 msgstr "(không có kết quả)"
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Access Groups"
+msgstr ""
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__access_token
@@ -56,6 +62,11 @@ msgid "BACK"
 msgstr "QUAY LẠI"
 
 #. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Choose a dashboard section..."
+msgstr ""
+
+#. module: spreadsheet_dashboard
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.js:0
 msgid "Choose a dashboard...."
@@ -63,6 +74,7 @@ msgstr "Chọn một bảng điều khiển...."
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__company_ids
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
 msgid "Companies"
 msgstr "Công ty"
 
@@ -94,13 +106,19 @@ msgstr "Được tạo vào"
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__dashboard_ids
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__dashboard_id
 #: model:res.groups.privilege,name:spreadsheet_dashboard.res_groups_privilege_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
 msgid "Dashboard"
-msgstr "Báo cáo tổng quan"
+msgstr "Bảng điều khiển"
 
 #. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__dashboard_group_id
-msgid "Dashboard Group"
-msgstr "Nhóm bảng điều khiển"
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Dashboard Section"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Dashboard name"
+msgstr ""
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
@@ -113,12 +131,13 @@ msgstr "Nhóm bảng điều khiển"
 #: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_root
 #: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_container_view_list
 msgid "Dashboards"
-msgstr "Báo cáo tổng quan"
+msgstr "Bảng điều khiển"
 
 #. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_list
-msgid "Data"
-msgstr "Dữ liệu"
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml:0
+msgid "Discard"
+msgstr ""
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__display_name
@@ -142,6 +161,12 @@ msgstr "DANH SÁCH YÊU THÍCH"
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__favorite_user_ids
 msgid "Favorite Users"
 msgstr "Người dùng yêu thích"
+
+#. module: spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml:0
+msgid "Filter"
+msgstr ""
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
@@ -268,9 +293,14 @@ msgid "Open record"
 msgstr "Mở bản ghi"
 
 #. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
+msgid "Published"
+msgstr ""
+
+#. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__published_dashboard_ids
 msgid "Published Dashboard"
-msgstr "Báo cáo tổng quan đã đăng"
+msgstr "Bảng điều khiển đã đăng"
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
@@ -288,6 +318,18 @@ msgstr "Bán hàng"
 #: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.xml:0
 msgid "Search..."
 msgstr "Tìm kiếm..."
+
+#. module: spreadsheet_dashboard
+#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__dashboard_group_id
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
+msgid "Section"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_group_action_configuration_sections
+#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_group_menu_configuration_sections
+msgid "Sections"
+msgstr ""
 
 #. module: spreadsheet_dashboard
 #. odoo-javascript
@@ -309,7 +351,7 @@ msgstr "Dịch vụ"
 #. module: spreadsheet_dashboard
 #: model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard
 msgid "Spreadsheet Dashboard"
-msgstr "Báo cáo tổng quan bảng tính"
+msgstr "Bảng điều khiển bảng tính"
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_data
@@ -326,13 +368,9 @@ msgstr "Tên tệp bảng tính"
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_binary_data
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__spreadsheet_binary_data
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
 msgid "Spreadsheet file"
 msgstr "Tệp bảng tính"
-
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_container_view_form
-msgid "Spreadsheets"
-msgstr "Bảng tính"
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__thumbnail
@@ -355,6 +393,11 @@ msgstr "URL"
 #: model:ir.model.fields,help:spreadsheet_dashboard.field_spreadsheet_dashboard__favorite_user_ids
 msgid "Users who have favorited this dashboard"
 msgstr "Người dùng đã đánh dấu yêu thích bảng điều khiển này"
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_list
+msgid "View"
+msgstr ""
 
 #. module: spreadsheet_dashboard
 #: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
@@ -386,10 +429,8 @@ msgid "You don't have access to this dashboard. "
 msgstr "Bạn không có quyền truy cập vào bảng điều khiển này "
 
 #. module: spreadsheet_dashboard
-#. odoo-python
-#: code:addons/spreadsheet_dashboard/controllers/share.py:0
-msgid ""
-"You don't have the rights to export data. Please contact an Administrator."
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "e.g. Sales operations"
 msgstr ""
 
 #. module: spreadsheet_dashboard
@@ -397,6 +438,3 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
 msgid "for"
 msgstr "cho"
-
-#~ msgid "Company"
-#~ msgstr "Công ty"

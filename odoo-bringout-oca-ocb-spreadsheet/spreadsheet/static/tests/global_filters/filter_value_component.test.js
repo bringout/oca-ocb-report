@@ -1,3 +1,4 @@
+import { render } from "@web/owl2/utils";
 import { describe, expect, test } from "@odoo/hoot";
 import { click, queryAllTexts } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
@@ -24,14 +25,14 @@ defineSpreadsheetModels();
 class FilterValueWrapper extends Component {
     static template = xml`
         <FilterValue
-            t-props="props"
-            globalFilterValue="globalFilterValue"
+            t-props="this.props"
+            globalFilterValue="this.globalFilterValue"
         />`;
     static components = { FilterValue };
     static props = FilterValue.props;
 
     setup() {
-        this.props.model.on("update", this, () => this.render(true));
+        this.props.model.on("update", this, () => render(this, true));
         onWillUnmount(() => this.props.model.off("update", this));
     }
 

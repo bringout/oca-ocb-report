@@ -16,6 +16,7 @@ import { waitForDataLoaded } from "@spreadsheet/helpers/model";
 import * as spreadsheet from "@odoo/o-spreadsheet";
 import { getCell, getCellFormula, getCellValue } from "@spreadsheet/../tests/helpers/getters";
 import { mockService, onRpc } from "@web/../tests/web_test_helpers";
+import { createSheet } from "../helpers/commands";
 
 const { cellMenuRegistry } = spreadsheet.registries;
 
@@ -185,7 +186,7 @@ test("Domain with granularity day_of_month are correctly computer", async functi
 
 test("Cannot open see records on the main PIVOT cell", async function () {
     const { env, model } = await createSpreadsheetWithPivot();
-    model.dispatch("CREATE_SHEET", { sheetId: "42" });
+    createSheet(model, { sheetId: "42" });
     setCellContent(model, "A1", `=PIVOT("1")`, "42");
     selectCell(model, "A1", "42");
     const action = await getActionMenu(cellMenuRegistry, ["pivot_see_records"], env);
@@ -194,7 +195,7 @@ test("Cannot open see records on the main PIVOT cell", async function () {
 
 test("Cannot open see records on the empty PIVOT cell below the main cell", async function () {
     const { env, model } = await createSpreadsheetWithPivot();
-    model.dispatch("CREATE_SHEET", { sheetId: "42" });
+    createSheet(model, { sheetId: "42" });
     setCellContent(model, "A1", `=PIVOT("1")`, "42");
     selectCell(model, "A2", "42"); // A2 is always empty. It's the cell next to measure headers.
     const action = await getActionMenu(cellMenuRegistry, ["pivot_see_records"], env);
@@ -219,7 +220,11 @@ test("Can see records on PIVOT cells", async function () {
         // sheet where the pivot is made of a single PIVOT formula.
         for (const [xc, formula] of Object.entries(cells)) {
             // let's check the cell formula is what we expect
-            expect(getCell(model, xc, firstSheetId)?.content).toBe(formula, {
+            const cell = getCell(model, xc, firstSheetId);
+            const content = !cell.isFormula
+                ? cell?.content
+                : cell?.compiledFormula.toFormulaString(model.getters);
+            expect(content).toBe(formula, {
                 message: `${xc} on the first sheet is ${formula}`,
             });
 
@@ -242,7 +247,7 @@ test("Can see records on PIVOT cells", async function () {
             actions.length = 0;
         }
     }
-    model.dispatch("CREATE_SHEET", { sheetId: "42" });
+    createSheet(model, { sheetId: "42" });
     setCellContent(model, "A1", `=PIVOT("1")`, "42");
 
     // here is what the cells look like
@@ -274,6 +279,31 @@ test("Can see records on PIVOT cells", async function () {
     // set the function in A3 such as the data cells matches the ones in the first sheet
     setCellContent(model, "A3", `=PIVOT("1",,,FALSE,,FALSE)`, "42");
     await checkCells(data_cells);
+});
+
+test("Can see records of a pivot cell with references as parameters", async function () {
+    const actions = [];
+    const fakeActionService = {
+        doAction: (actionRequest, options = {}) => {
+            expect.step("doAction");
+            actions.push(actionRequest);
+        },
+    };
+    mockService("action", fakeActionService);
+    const { env, model } = await createSpreadsheetWithPivot({ pivotType: "static" });
+    setCellContent(model, "A1", `1`);
+    setCellContent(model, "B1", '=PIVOT.VALUE(1,"probability:avg","bar",TRUE,"foo",A1)');
+    selectCell(model, "B1");
+    let action = await getActionMenu(cellMenuRegistry, ["pivot_see_records"], env);
+    expect(action.isVisible(env)).toBe(true);
+    await doMenuAction(cellMenuRegistry, ["pivot_see_records"], env);
+    setCellContent(model, "G7", "=B1");
+    selectCell(model, "G7");
+    action = await getActionMenu(cellMenuRegistry, ["pivot_see_records"], env);
+    expect(action.isVisible(env)).toBe(true);
+    await doMenuAction(cellMenuRegistry, ["pivot_see_records"], env);
+    expect(actions[0]).toEqual(actions[1], { message: "both actions are the same" });
+    expect.verifySteps(["doAction", "doAction"]);
 });
 
 test("Cannot see records of pivot formula without value", async function () {

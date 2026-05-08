@@ -1,15 +1,16 @@
 /** @ts-check */
 
-import { Component, useEffect } from "@odoo/owl";
+import { useLayoutEffect } from "@web/owl2/utils";
+import { Component } from "@odoo/owl";
 import { useChildRef } from "@web/core/utils/hooks";
 
-import { TagsList } from "@web/core/tags_list/tags_list";
+import { BadgeTag } from "@web/core/tags_list/badge_tag";
 import { AutoComplete } from "@web/core/autocomplete/autocomplete";
 
 export class TextFilterValue extends Component {
     static template = "spreadsheet.TextFilterValue";
     static components = {
-        TagsList,
+        BadgeTag,
         AutoComplete,
     };
     static props = {
@@ -30,7 +31,7 @@ export class TextFilterValue extends Component {
 
     setup() {
         this.inputRef = useChildRef();
-        useEffect(
+        useLayoutEffect(
             () => {
                 if (this.props.options.length && this.inputRef.el) {
                     // if there are options restricting the possible values,

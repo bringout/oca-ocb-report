@@ -2,14 +2,23 @@ import { OdooViewsDataSource } from "@spreadsheet/data_sources/odoo_views_data_s
 import { _t } from "@web/core/l10n/translation";
 import { GraphModel as ChartModel } from "@web/views/graph/graph_model";
 import { Domain } from "@web/core/domain";
+import { range } from "@web/core/utils/numbers";
 
 export class ChartDataSource extends OdooViewsDataSource {
     /**
      * @override
      * @param {Object} services Services (see DataSource)
      */
-    constructor(services, params) {
-        super(services, params);
+    constructor(services, chartDefinition) {
+        const dataSource = chartDefinition.dataSource;
+        super(services, {
+            ...dataSource,
+            metaData: {
+                ...dataSource.metaData,
+                cumulatedStart: dataSource.cumulatedStart,
+                mode: chartTypeToDataSourceMode(chartDefinition.type),
+            },
+        });
     }
 
     /**
@@ -78,10 +87,13 @@ export class ChartDataSource extends OdooViewsDataSource {
         if (this._hierarchicalData && this.labelToDomainMapping) {
             return this._hierarchicalData;
         }
-
         const dataPoints = this._model.dataPoints;
         const groupBy = this._metaData.groupBy;
-        const datasets = new Array(groupBy.length).fill().map(() => ({ data: [], domains: [] }));
+        const datasets = range(groupBy.length).map(() => ({
+            data: [],
+            domains: [],
+            identifiers: [],
+        }));
         const labels = new Array();
         const domainMapping = {};
         for (const gb of groupBy) {
@@ -89,9 +101,10 @@ export class ChartDataSource extends OdooViewsDataSource {
         }
 
         for (const point of dataPoints) {
-            labels.push(point.value.toString());
+            labels.push(point.value);
             for (let i = 0; i < groupBy.length; i++) {
                 datasets[i].data.push(point.labels[i]);
+                datasets[i].identifiers.push(point.identifier);
 
                 const label = point.labels[i];
                 if (!domainMapping[groupBy[i]][label]) {
@@ -124,10 +137,10 @@ export class ChartDataSource extends OdooViewsDataSource {
 
 export function chartTypeToDataSourceMode(chartType) {
     switch (chartType) {
-        case "odoo_bar":
-        case "odoo_line":
-        case "odoo_pie":
-            return chartType.replace("odoo_", "");
+        case "bar":
+        case "line":
+        case "pie":
+            return chartType;
         default:
             return "bar";
     }
