@@ -1,435 +1,481 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * spreadsheet_dashboard
 #
-# Odoo Translation Bot <c3p@odoo.com>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 19.0\n"
+"Project-Id-Version: Odoo Server master (spreadsheet_dashboard)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 18:36+0000\n"
-"PO-Revision-Date: 2025-10-08 18:39+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Language-Team: Bosnian\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. module: spreadsheet_dashboard
-#. odoo-python
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py:0
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_group.py:0
+# model: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard.py
+#, []
 msgid "%s (copy)"
+msgstr "%s (kopija)"
+
+# model:
+# code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_share.py
+#, []
+msgid "%s - Share Link"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js
+#, []
 msgid "(no result)"
-msgstr ""
+msgstr "(nema rezultata)"
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+#, []
 msgid "Access Groups"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__access_token
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__access_token
+#, []
 msgid "Access Token"
-msgstr ""
+msgstr "Token za pristup"
 
-#. module: spreadsheet_dashboard
-#: model:res.groups,name:spreadsheet_dashboard.group_dashboard_manager
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__active
+#, []
+msgid "Active"
+msgstr "Aktivno"
+
+# model: model:res.groups,name:spreadsheet_dashboard.group_dashboard_manager
+#, []
 msgid "Admin"
+msgstr "Administrator"
+
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
+#, []
+msgid "An error occurred while loading the dashboard"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
-msgid "An error occured while loading the dashboard"
-msgstr ""
-
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.xml
+#, []
 msgid "BACK"
-msgstr ""
+msgstr "NAZAD"
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+#, []
 msgid "Choose a dashboard section..."
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_search_panel/mobile_search_panel.js
+#, []
 msgid "Choose a dashboard...."
+msgstr "Izaberite kontrolnu tablu...."
+
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
+#, []
+msgid "Close sidebar"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__company_ids
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__company_ids
+#, []
 msgid "Companies"
-msgstr ""
+msgstr "Kompanije"
 
-#. module: spreadsheet_dashboard
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_configuration
+# model:
+# model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_configuration
+#, []
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguracija"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard_share
+# model:
+# model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard_share
+#, []
 msgid "Copy of a shared dashboard"
-msgstr ""
+msgstr "Kopija dijeljene kontrolne table"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__create_uid
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__create_uid
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__create_uid
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__create_uid
+#, []
 msgid "Created by"
-msgstr ""
+msgstr "Kreirao"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__create_date
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__create_date
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__create_date
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__create_date
+#, []
 msgid "Created on"
-msgstr ""
+msgstr "Kreirano"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__dashboard_ids
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__dashboard_id
-#: model:res.groups.privilege,name:spreadsheet_dashboard.res_groups_privilege_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__dashboard_ids
+#, []
 msgid "Dashboard"
-msgstr ""
+msgstr "Nadzorna ploča"
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+#, []
 msgid "Dashboard Section"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+#, []
 msgid "Dashboard name"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/assets/dashboard_action_loader.js:0
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.js:0
-#: model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_action_configuration_dashboards
-#: model:ir.actions.client,name:spreadsheet_dashboard.ir_actions_dashboard_action
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_configuration_dashboards
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_dashboard
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_menu_root
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_container_view_list
+# model:
+# code:addons/spreadsheet_dashboard/static/src/assets/dashboard_action_loader.js
+#, []
 msgid "Dashboards"
-msgstr ""
+msgstr "Pregledi"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml
+#, []
 msgid "Discard"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__display_name
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__display_name
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__display_name
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__display_name
+#, []
 msgid "Display Name"
-msgstr ""
+msgstr "Naziv za prikaz"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__excel_export
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__excel_export
+#, []
 msgid "Excel Export"
-msgstr ""
+msgstr "Excel izvoz"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_loader_service.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_loader_service.js
+#, []
 msgid "FAVORITES"
-msgstr ""
+msgstr "OMILJENO"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__favorite_user_ids
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__favorite_user_ids
+#, []
 msgid "Favorite Users"
-msgstr ""
+msgstr "Omiljeni korisnici"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml
+#, []
 msgid "Filter"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/pivot/clickable_cell.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/pivot/clickable_cell.js
+#, []
 msgid "Filter on this value"
-msgstr ""
+msgstr "Filtriraj po ovoj vrijednosti"
 
-#. module: spreadsheet_dashboard
-#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_finance
+# model:
+# model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_finance
+#, []
 msgid "Finance"
-msgstr ""
+msgstr "Finansije"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__group_ids
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__group_ids
+#, []
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard_group
+# model:
+# model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard_group
+#, []
 msgid "Group of dashboards"
-msgstr ""
+msgstr "Grupa kontrolnih tabli"
 
-#. module: spreadsheet_dashboard
-#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_hr
+# model:
+# model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_hr
+#, []
 msgid "Human Resources"
-msgstr ""
+msgstr "Ljudski resursi"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__id
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__id
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__id
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__id
+#, []
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,help:spreadsheet_dashboard.field_spreadsheet_dashboard__is_favorite
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_share_view_search
+#, []
+msgid "Inactive"
+msgstr "Neaktivno"
+
+# model:
+# model:ir.model.fields,help:spreadsheet_dashboard.field_spreadsheet_dashboard__is_favorite
+#, []
 msgid "Indicates whether the dashboard is favorited by the current user"
 msgstr ""
+"Označava da li je trenutni korisnik označio kontrolnu tablu kao omiljenu"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__is_favorite
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__is_favorite
+#, []
 msgid "Is Favorite"
-msgstr ""
+msgstr "Je omiljena"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__is_published
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__is_published
+#, []
 msgid "Is Published"
-msgstr ""
+msgstr "Je objavljena"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_uid
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__write_uid
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__write_uid
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_uid
+#, []
 msgid "Last Updated by"
-msgstr ""
+msgstr "Posljednji put ažurirao"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_date
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__write_date
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__write_date
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_date
+#, []
 msgid "Last Updated on"
-msgstr ""
+msgstr "Posljednji put ažurirano"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js
+#, []
 msgid "Load more"
-msgstr ""
+msgstr "Učitaj više"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
+#, []
 msgid "Loading..."
-msgstr ""
+msgstr "Učitavanje..."
 
-#. module: spreadsheet_dashboard
-#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_logistics
+# model:
+# model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_logistics
+#, []
 msgid "Logistics"
-msgstr ""
+msgstr "Logistika"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__main_data_model_ids
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__main_data_model_ids
+#, []
 msgid "Main Data Model"
-msgstr ""
+msgstr "Glavni model podataka"
 
-#. module: spreadsheet_dashboard
-#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_marketing
+# model:
+# model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_marketing
+#, []
 msgid "Marketing"
-msgstr ""
+msgstr "Marketing"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__name
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__name
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__name
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__name
+#, []
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js
+#, []
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
+#, []
 msgid "No available dashboard"
-msgstr ""
+msgstr "Nema dostupnih kontrolnih tabli"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_figure_container/mobile_figure_container.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/mobile_figure_container/mobile_figure_container.xml
+#, []
 msgid ""
-"Only chart figures are displayed in small screens but this dashboard doesn't "
-"contain any"
+"Only chart figures are displayed in small screens but this dashboard doesn't"
+" contain any"
 msgstr ""
+"Na malim ekranima prikazuju se samo grafikoni, ali ova kontrolna tabla ih ne"
+" sadrži."
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/list/clickable_cell.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/list/clickable_cell.js
+#, []
 msgid "Open record"
+msgstr "Otvori zapis"
+
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
+#, []
+msgid "Open sidebar"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
+#, []
 msgid "Published"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__published_dashboard_ids
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__published_dashboard_ids
+#, []
 msgid "Published Dashboard"
-msgstr ""
+msgstr "Objavljena kontrolna tabla"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_facet/dashboard_facet.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_facet/dashboard_facet.xml
+#, []
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
-#. module: spreadsheet_dashboard
-#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_sales
+# model:
+# model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_sales
+#, []
 msgid "Sales"
-msgstr ""
+msgstr "Prodaja"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.xml
+#, []
 msgid "Search..."
-msgstr ""
+msgstr "Pretraga..."
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__dashboard_group_id
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__dashboard_group_id
+#, []
 msgid "Section"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_group_action_configuration_sections
-#: model:ir.ui.menu,name:spreadsheet_dashboard.spreadsheet_dashboard_group_menu_configuration_sections
+# model:
+# model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_group_action_configuration_sections
+#, []
 msgid "Sections"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/pivot/clickable_cell.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/pivot/clickable_cell.js
+#, []
 msgid "See records"
-msgstr ""
+msgstr "Vidi zapise"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__sequence
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_group__sequence
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__sequence
+#, []
 msgid "Sequence"
-msgstr ""
+msgstr "Redoslijed"
 
-#. module: spreadsheet_dashboard
-#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_project
+# model:
+# model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_project
+#, []
 msgid "Services"
+msgstr "Usluge"
+
+# model:
+# model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_share_action_configuration_share_links
+#, []
+msgid "Share links"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#: model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard
+# model: model:ir.model,name:spreadsheet_dashboard.model_spreadsheet_dashboard
+#, []
 msgid "Spreadsheet Dashboard"
-msgstr ""
+msgstr "Kontrolna tabla proračunske tabele"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_data
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__spreadsheet_data
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_data
+#, []
 msgid "Spreadsheet Data"
-msgstr ""
+msgstr "Podaci proračunske tabele"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_file_name
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__spreadsheet_file_name
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_file_name
+#, []
 msgid "Spreadsheet File Name"
-msgstr ""
+msgstr "Naziv fajla proračunske tabele"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_binary_data
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__spreadsheet_binary_data
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_binary_data
+#, []
 msgid "Spreadsheet file"
-msgstr ""
+msgstr "Fajl proračunske tabele"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__thumbnail
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__thumbnail
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__thumbnail
+#, []
 msgid "Thumbnail"
-msgstr ""
+msgstr "Sličica"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml
+#, []
 msgid "Toggle favorite"
-msgstr ""
+msgstr "Prebaci omiljeno"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__full_url
+# model:
+# model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__full_url
+#, []
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
-#. module: spreadsheet_dashboard
-#: model:ir.model.fields,help:spreadsheet_dashboard.field_spreadsheet_dashboard__favorite_user_ids
+# model:
+# model:ir.model.fields,help:spreadsheet_dashboard.field_spreadsheet_dashboard__favorite_user_ids
+#, []
 msgid "Users who have favorited this dashboard"
-msgstr ""
+msgstr "Korisnici koji su označili ovu kontrolnu tablu kao omiljenu"
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_list
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_list
+#, []
 msgid "View"
-msgstr ""
+msgstr "Pogledaj"
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_list
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+#, []
 msgid "Visible to all"
-msgstr ""
+msgstr "Vidljivo svima"
 
-#. module: spreadsheet_dashboard
-#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_website
+# model:
+# model:spreadsheet.dashboard.group,name:spreadsheet_dashboard.spreadsheet_dashboard_group_website
+#, []
 msgid "Website"
-msgstr ""
+msgstr "Web stranica"
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js
+#, []
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
-#. module: spreadsheet_dashboard
-#. odoo-python
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_group.py:0
+# model:
+# code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_group.py
+#, []
 msgid "You cannot delete %s as it is used in another module."
-msgstr ""
+msgstr "Ne možete izbrisati %s jer se koristi u drugom modulu."
 
-#. module: spreadsheet_dashboard
-#. odoo-python
-#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_share.py:0
+# model:
+# code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_share.py
+#, []
 msgid "You don't have access to this dashboard. "
-msgstr ""
+msgstr "Nemate pristup ovoj kontrolnoj tabli. "
 
-#. module: spreadsheet_dashboard
-#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+# model: code:addons/spreadsheet_dashboard/controllers/share.py
+#, []
+msgid ""
+"You don't have the rights to export data. Please contact an Administrator."
+msgstr "Nemate prava za izvoz podataka. Molimo kontaktirajte administratora."
+
+# model:
+# model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+#, []
 msgid "e.g. Sales operations"
 msgstr ""
 
-#. module: spreadsheet_dashboard
-#. odoo-javascript
-#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
+# model:
+# code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js
+#, []
 msgid "for"
-msgstr ""
+msgstr "za"
