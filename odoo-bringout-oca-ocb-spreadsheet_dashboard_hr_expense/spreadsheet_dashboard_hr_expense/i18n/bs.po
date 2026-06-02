@@ -190,3 +190,8 @@ msgstr "Najbolje refakturisani nalozi"
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Travel"
 msgstr "Putovanje"
+
+#. module: spreadsheet_dashboard_hr_expense
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
+msgid "Top Products"
+msgstr ""

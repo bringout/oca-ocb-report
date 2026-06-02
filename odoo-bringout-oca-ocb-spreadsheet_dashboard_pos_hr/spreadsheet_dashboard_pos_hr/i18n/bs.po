@@ -245,3 +245,8 @@ msgstr "statistike - trenutne"
 #, python-format
 msgid "stats - previous"
 msgstr "statistike - prethodne"
+
+#. module: spreadsheet_dashboard_pos_hr
+#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+msgid "Preset"
+msgstr ""

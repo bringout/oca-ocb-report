@@ -89,7 +89,7 @@ msgstr "Podaci"
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: spreadsheet_dashboard
@@ -118,19 +118,19 @@ msgstr "Nevažeći JSON podaci"
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 # taken from hr.po
 #. module: spreadsheet_dashboard
@@ -395,3 +395,93 @@ msgstr "Nemate prava za izvoz podataka. Molimo kontaktirajte administratora."
 #: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar/dashboard_search_bar.js:0
 msgid "for"
 msgstr "za"
+
+#. module: spreadsheet_dashboard
+#: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_share.py:0
+msgid "%s - Share Link"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Access Groups"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__active
+msgid "Active"
+msgstr "Aktivno"
+
+#. module: spreadsheet_dashboard
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+msgid "An error occurred while loading the dashboard"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Choose a dashboard section..."
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+msgid "Close sidebar"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Dashboard Section"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "Dashboard name"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml:0
+msgid "Discard"
+msgstr "Napusti"
+
+#. module: spreadsheet_dashboard
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_search_bar_menu/dashboard_search_bar_menu.xml:0
+msgid "Filter"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_share_view_search
+msgid "Inactive"
+msgstr "Neaktivno"
+
+#. module: spreadsheet_dashboard
+#: code:addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_action.xml:0
+msgid "Open sidebar"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_search
+msgid "Published"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__dashboard_group_id
+msgid "Section"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_group_action_configuration_sections
+msgid "Sections"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model:ir.actions.act_window,name:spreadsheet_dashboard.spreadsheet_dashboard_share_action_configuration_share_links
+msgid "Share links"
+msgstr ""
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_list
+msgid "View"
+msgstr "Pogledaj"
+
+#. module: spreadsheet_dashboard
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_view_form
+msgid "e.g. Sales operations"
+msgstr ""

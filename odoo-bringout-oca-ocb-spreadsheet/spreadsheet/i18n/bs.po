@@ -572,7 +572,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3466,7 +3466,7 @@ msgstr "Subota"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "Save"
-msgstr "Spremi"
+msgstr "Snimi"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5532,7 +5532,7 @@ msgstr "[[FUNCTION_NAME]] očekuje pozitivne brojeve."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "View"
-msgstr "Pregled"
+msgstr "Prikaz"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -14066,3 +14066,1238 @@ msgstr "juče"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "zero"
 msgstr "nula"
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(hour)s AM"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(hour)s PM"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/list/plugins/list_ui_plugin.js:0
+msgid "%(list_name)s (List #%(list_id)s)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(milliseconds)s ms"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"%(replaceable_count)s match(es) replaced. %(irreplaceable_count)s match(es) "
+"cannot be replaced as they are part of a formula or inside a locked sheet"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(seconds)s s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(zoom_percentage)s%"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "+ Add a new named range"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "-45° rotation"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "-90° rotation"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "0 = replace all matches. A negative number counts from the end."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "45° rotation"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "90° rotation"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A named range name cannot resemble a cell reference."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A named range with this name already exists."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"A potential value to return. May be a reference to a cell or an individual "
+"value."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"A string, possible empty, or a reference to a valid string. If empty, the "
+"text will be simply concatenated."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A3 (297 x 420 mm)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A4 (210 x 297 mm)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A5 (148 x 210 mm)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Actual size"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Add missing columns"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Add missing columns and rows"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Add missing rows"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"All ranges in [[FUNCTION_NAME]] must have the same number of columns (got "
+"%s)."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Analyze performance"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Appends ranges horizontally and in sequence to return a larger array. All "
+"ranges must have the same number of rows."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Appends ranges vertically and in sequence to return a larger array. All "
+"ranges must have the same number of columns."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Axis range"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "B4 (250 x 353 mm)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "B5 (176 x 250 mm)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Banded rows:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Blue"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Calendar"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Calendar chart options"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Case to be checked against expression."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Cells"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/index.js:0
+msgid "Chart #%(odooChartId)s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Checks whether a string matches the supplied regular expression."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Choice is undefined."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Collapse"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Collapse all"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Column or row containing true or false values corresponding to the range."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Column statistics"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Concise formatxA0(default)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Criteria to check."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Criterion to check."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Custom date and time"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Custom number format"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/data_sources/data_source_link.js:0
+msgid "Data Sources"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/data_sources/data_source_link.js:0
+msgid "Data source deleted"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Data visualization"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Date range"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Delete named range"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Display options"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % difference from \"%s\" : %s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % difference from next \"%s\""
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % difference from previous \"%s\""
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of \"%s\" : %s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of next \"%s\""
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of parent row total"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of previous \"%s\""
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as difference from \"%s\" : %s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as difference from next \"%s\""
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as difference from previous \"%s\""
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Distribution"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Duplicate chart"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Edit pivot style"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Entire workbook"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Excludes a specified number of rows or columns from the start or end of an "
+"array."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Expand"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Expand all"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Expand/Collapse"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Expression or reference to a cell containing a logical value (TRUE/FALSE) or"
+" an expression that can be coerced to a logical value."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Fields to group by"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Fit to height"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Fit to width"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Format code"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Format must be 0 or 1"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Format type"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Formatting"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Frequency"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Function calls"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "General statistics"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+msgid "Get a dynamic Odoo list function."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Gets the spilled range of an array formula."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Green"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Index for CHOOSE is invalid. Valid values are between 1 and %(choices)s "
+"inclusive."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Is in Top/Bottom ranking"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Is value duplicate"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Is value unique"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Landscape"
+msgstr ""
+
+#. module: spreadsheet
+#: model:ir.model,name:spreadsheet.model_res_lang
+msgid "Language"
+msgstr "Jezik"
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Legal (216 x 356 mm)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Letter (216 x 279 mm)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Lock sheet"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Lower bound value"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Major horizontal gridlines"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Major vertical gridlines"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Manage named ranges"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Match(es) cannot be replaced as they are part of a formula or inside a "
+"locked sheet"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Max columns:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Max rows:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Median"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Minor horizontal gridlines"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Minor vertical gridlines"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Missing closing brace"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Missing value color"
+msgstr ""
+
+#. module: spreadsheet
+#: model:ir.model,name:spreadsheet.model_ir_model
+msgid "Model"
+msgstr "Modeli"
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Named Ranges"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Named ranges"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Named_Range"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Negative:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "No content to print"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "No legend available"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No numeric values to display."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No rotation"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No values to display."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Number or range to add together."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Number or range to calculate for the product."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Number too large"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Only single-cell references are allowed to get the spilled range."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Orientation"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Paper"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Performance"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Pie Slice"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pin the side panel"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pivot"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Pivot table style"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/list/list_data_source.js:0
+msgid "Please specify the property field name"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Portrait"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Positive:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Print"
+msgstr "Štampaj"
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Print Preview"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Print content"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Q%(value)s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Range or reference for which you want the subtotal."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Range over which to evaluate criteria."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Range to check."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Range to evaluate criteria."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Re-analyze"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Replace text in a string based on the supplied regular expression."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Result couldn't be automatically expanded."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns a formula as a string."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Returns a specified number of contiguous rows or columns from the start or "
+"end of an array."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns an element from a list of choices based on index."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Rotation"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Rows to ignore"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Sample:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Scale"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Scientific"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Select a single column to view statistics."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Selected cells (%s)"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Sheets"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show column titles:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show measure titles:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show totals:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/pivot/plugins/pivot_spreadsheet_list_header_ui_plugin.js:0
+msgid "Some list column titles have been locked to avoid translation issues."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Strict format"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "String to append in sequence."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Switch to next column"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Switch to previous column"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"TRUE or FALSE indicating whether to sort sort_column in ascending order. "
+"FALSE sorts in descending order."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Target must contain at least one zone"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Text item to join."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Text:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The array from which to drop rows or columns"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The array from which to take rows or columns."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The array to convert into text"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The cell does not contain a formula."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The column index of the column to be returned."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The condition to be evaluated. It can be a boolean, a number, an array, or a"
+" reference to any of those."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The format entered is not valid."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The format of the returned data."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The function [[FUNCTION_NAME]] expects a reference to a cell or range."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The future cash flows."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The index of the column in range or a range outside of range containing the "
+"value by which to sort."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The named range name is invalid. Valid names can contain letters, digits, "
+"underscores, and periods. The name cannot be only a number, TRUE, or FALSE."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The named range to update was not found."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The number of columns to exclude. A negative value drops from the end of the"
+" array."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The number of columns to take. A negative value takes from the end of the "
+"array."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of rows can not be zero."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The number of rows or column to exclude must be smaller than the number of "
+"elements in the array."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+msgid "The number of rows parameter should be a positive number."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The number of rows to drop. A negative value drops from the end of the "
+"array."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The number of rows to take. A negative value takes from the end of the "
+"array."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The range to be appended."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The range to flatten."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The range whose entries will be multiplied with corresponding entries in the"
+" other range."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The range you specified is outside of the sheet.\n"
+"\n"
+"If you meant to create a named range, named range cannot have the same name as a cell reference. Please choose another name."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The reference is invalid."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The reference to get the spilled range from."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The row index of the row to be returned."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The string in which you want to replace text."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The string to test."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The text to use as the replacement."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must be a positive number"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must be in bottom %(value)s%(percentSymbol)s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must be in top %(value)s%(percentSymbol)s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must be unique"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must not be unique"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value to be returned if its corresponding condition is TRUE."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "This may take a while."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "This sheet is locked and cannot be modified. Please unlock it first."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Total rows"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Total time"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Unique values"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Unlock sheet"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Unpin the side panel"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Upper bound value"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Use tabular form:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value is duplicate"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value is in bottom %(value)s%(percentSymbol)s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value is in top %(value)s%(percentSymbol)s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value is unique"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range in which to count the number of blanks."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to consider for uniqueness."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to consider when calculating the average value."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to consider when calculating the maximum value."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to consider when calculating the median value."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to consider when calculating the minimum value."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to consider when counting."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to include in the population."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value or range to include in the sample."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value to average."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value to be appended using delimiter."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value to be returned if its corresponding case matches expression."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "W%(weekNumber)s"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Weight for each corresponding value."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Which choice to return."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Zero:"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "e.g. 10"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "e.g. 5"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+msgid "number of rows to display"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "pages"
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"returns an array of text values from any specified range. It passes text "
+"values unchanged, and converts non-text values to text."
+msgstr ""
+
+#. module: spreadsheet
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+msgid ""
+"the default maximum number of rows (%s) has been reached. Please explicitely"
+" set the row_count parameter."
+msgstr ""
