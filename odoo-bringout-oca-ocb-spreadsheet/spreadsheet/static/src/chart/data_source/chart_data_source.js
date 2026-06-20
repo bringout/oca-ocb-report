@@ -2,9 +2,9 @@
 
 import { OdooViewsDataSource } from "@spreadsheet/data_sources/odoo_views_data_source";
 import { _t } from "@web/core/l10n/translation";
-import { GraphModel as ChartModel} from "@web/views/graph/graph_model";
+import { GraphModel as ChartModel } from "@web/views/graph/graph_model";
 
-export default class ChartDataSource extends OdooViewsDataSource {
+export class ChartDataSource extends OdooViewsDataSource {
     /**
      * @override
      * @param {Object} services Services (see DataSource)
@@ -43,5 +43,17 @@ export default class ChartDataSource extends OdooViewsDataSource {
             return { datasets: [], labels: [] };
         }
         return this._model.data;
+    }
+
+    get source() {
+        this._assertMetadataIsLoaded();
+        const data = this._metaData;
+        return {
+            resModel: data.resModel,
+            type: "graph",
+            fields: [data.measure],
+            groupby: data.groupBy,
+            domain: this._searchParams.domain,
+        };
     }
 }
