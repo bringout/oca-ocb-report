@@ -1,28 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet_dashboard_pos_hr
-# 
+#
 # Translators:
-# Martin Trigaux, 2022
-# Thi Huong Nguyen, 2023
-# 
+# Wil Odoo, 2023
+# Thi Huong Nguyen, 2025
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-06 13:32+0000\n"
-"PO-Revision-Date: 2022-09-29 09:44+0000\n"
-"Last-Translator: Thi Huong Nguyen, 2023\n"
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2023-10-26 23:09+0000\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Average order"
@@ -30,7 +29,6 @@ msgstr "Đơn hàng trung bình"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Current"
@@ -74,11 +72,6 @@ msgstr "Đơn hàng"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Orders"
 msgstr "Đơn hàng"
@@ -88,62 +81,60 @@ msgstr "Đơn hàng"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Orders by Month"
-msgstr "Đơn hàng theo Tháng"
+msgstr "Đơn hàng theo tháng"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Orders by Total"
-msgstr "Đơn hàng theo Tổng"
+msgstr "Đơn hàng theo tổng tiền"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Period"
-msgstr "Kỳ"
+msgstr "Giai đoạn"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_pos_hr.spreadsheet_dashboard_pos
 #, python-format
 msgid "Point of Sale"
-msgstr "Điểm bán lẻ"
+msgstr "POS"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Point of Sale Analysis by Point of Sale"
-msgstr "Phân tích điểm bán lẻ theo Điểm bán lẻ"
+msgstr "Phân tích POS theo POS"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Point of Sale Analysis by Product"
-msgstr "Phân tích điểm bán lẻ theo Sản phẩm"
+msgstr "Phân tích POS theo sản phẩm"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Point of Sale Analysis by Session"
-msgstr "Phân tích điểm bán lẻ theo Phiên"
+msgstr "Phân tích POS theo phiên"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Point of Sale Analysis by User"
-msgstr "Phân tích điểm bán lẻ theo Người dùng"
+msgstr "Phân tích POS theo người dùng"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Previous"
@@ -152,14 +143,12 @@ msgstr "Trước đó"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Product"
 msgstr "Sản phẩm"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Responsible"
@@ -168,18 +157,12 @@ msgstr "Người phụ trách"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Revenue"
 msgstr "Doanh thu"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Session"
@@ -204,7 +187,7 @@ msgstr "Đơn hàng tiêu biểu"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Top Points of Sale"
-msgstr "Điểm bán lẻ tiêu biểu"
+msgstr "POS tiêu biểu"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
@@ -237,22 +220,20 @@ msgstr "Tổng"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "since last period"
-msgstr "kể từ kỳ trước"
+msgstr "kể từ giai đoạn trước"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "stats - current"
-msgstr "số liệu thống kê - hiện tại"
+msgstr "thống kê - hiện tại"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "stats - previous"
-msgstr "số liệu thống kê - trước đó"
+msgstr "thống kê - trước đó"

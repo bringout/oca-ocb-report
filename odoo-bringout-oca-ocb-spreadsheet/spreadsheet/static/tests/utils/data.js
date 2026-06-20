@@ -1,4 +1,5 @@
 /** @odoo-module */
+import { session } from "@web/session";
 
 /**
  * @typedef {object} ServerData
@@ -120,11 +121,12 @@ export function getBasicData() {
         "documents.document": {
             fields: {
                 name: { string: "Name", type: "char" },
-                raw: { string: "Data", type: "text" },
+                spreadsheet_data: { string: "Data", type: "text" },
                 thumbnail: { string: "Thumbnail", type: "text" },
                 display_thumbnail: { string: "Thumbnail", type: "text" },
                 favorited_ids: { string: "Name", type: "many2many" },
                 is_favorited: { string: "Name", type: "boolean" },
+                is_multipage: { string: "Is multipage", type: "boolean" },
                 mimetype: { string: "Mimetype", type: "char" },
                 partner_id: { string: "Related partner", type: "many2one", relation: "partner" },
                 owner_id: { string: "Owner", type: "many2one", relation: "partner" },
@@ -151,7 +153,7 @@ export function getBasicData() {
                 {
                     id: 1,
                     name: "My spreadsheet",
-                    raw: "{}",
+                    spreadsheet_data: "{}",
                     is_favorited: false,
                     folder_id: 1,
                     handler: "spreadsheet",
@@ -159,7 +161,7 @@ export function getBasicData() {
                 {
                     id: 2,
                     name: "",
-                    raw: "{}",
+                    spreadsheet_data: "{}",
                     is_favorited: true,
                     folder_id: 1,
                     handler: "spreadsheet",
@@ -181,6 +183,11 @@ export function getBasicData() {
                     id: 40,
                     name: "Partner",
                     model: "partner",
+                },
+                {
+                    id: 55,
+                    name: "Users",
+                    model: "res.users",
                 },
             ],
         },
@@ -219,13 +226,13 @@ export function getBasicData() {
         "spreadsheet.template": {
             fields: {
                 name: { string: "Name", type: "char" },
-                data: { string: "Data", type: "binary" },
+                spreadsheet_data: { string: "Spreadsheet Data", type: "text" },
                 thumbnail: { string: "Thumbnail", type: "binary" },
                 display_thumbnail: { string: "Thumbnail", type: "text" },
             },
             records: [
-                { id: 1, name: "Template 1", data: btoa("{}") },
-                { id: 2, name: "Template 2", data: btoa("{}") },
+                { id: 1, name: "Template 1", spreadsheet_data: {} },
+                { id: 2, name: "Template 2", spreadsheet_data: {} },
             ],
         },
         "res.currency": {
@@ -258,6 +265,12 @@ export function getBasicData() {
                     decimal_places: 2,
                 },
             ],
+        },
+        "res.users": {
+            fields: {
+                name: { string: "Name", type: "char" },
+            },
+            records: [{ id: session.uid, name: session.name }],
         },
         partner: {
             fields: {
@@ -348,11 +361,24 @@ export function getBasicData() {
                     store: true,
                     sortable: true,
                     searchable: true,
+                    definition_record: "product_id",
+                    definition_record_field: "properties_definitions",
                 },
                 jsonField: {
                     string: "Json Field",
                     type: "json",
                     store: true,
+                },
+                user_ids: {
+                    relation: "res.users",
+                    string: "Users",
+                    type: "many2many",
+                    searchable: true,
+                },
+                id: {
+                    type: "integer",
+                    searchable: true,
+                    string: "ID",
                 },
             },
             records: [
@@ -414,6 +440,7 @@ export function getBasicData() {
             fields: {
                 name: { string: "Product Name", type: "char" },
                 active: { string: "Active", type: "bool", default: true },
+                properties_definitions: { type: "properties_definitions" },
             },
             records: [
                 {

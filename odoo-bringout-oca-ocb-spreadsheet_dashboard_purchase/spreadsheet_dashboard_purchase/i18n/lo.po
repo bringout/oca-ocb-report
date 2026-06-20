@@ -1,54 +1,47 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* spreadsheet_dashboard_purchase
-# 
-# Translators:
-# ສີສຸວັນ ສັງບົວບຸລົມ <sisouvan@gmail.com>, 2023
-# Phoxaysy Sengchanthanouvong <phoxaysy@gmail.com>, 2023
-# 
+# * spreadsheet_dashboard_purchase
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 10:43+0000\n"
-"PO-Revision-Date: 2022-09-29 09:44+0000\n"
-"Last-Translator: Phoxaysy Sengchanthanouvong <phoxaysy@gmail.com>, 2023\n"
-"Language-Team: Lao (https://app.transifex.com/odoo/teams/41243/lo/)\n"
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-05-24 16:12+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-17/"
+"spreadsheet_dashboard_purchase/lo/>\n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: lo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid " days"
-msgstr ""
+msgstr " ມື້"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Amount"
-msgstr ""
+msgstr "ມູນຄ່າ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Buyer"
-msgstr ""
+msgstr "ຜູ້ຊື້"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Country"
@@ -57,14 +50,12 @@ msgstr "ປະເທດ"
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Current"
-msgstr "ລາຍຮັບເປັນເງິນ"
+msgstr "ປະຈຸບັນ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Days to receive"
@@ -75,11 +66,10 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "KPI"
-msgstr ""
+msgstr "ຕົວຊີ້ວັດຜົນງານຫຼັກ (KPI)"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Lines"
@@ -90,40 +80,35 @@ msgstr "ລາຍການ"
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Order"
-msgstr ""
+msgstr "ລຳດັບ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Ordered"
-msgstr ""
+msgstr "ສັ່ງຊື້ແລ້ວ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Orders"
-msgstr ""
+msgstr "ຄຳສັ່ງຊື້"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Period"
-msgstr ""
+msgstr "ງວດ/ໄລຍະເວລາ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Previous"
-msgstr ""
+msgstr "ກ່ອນໜ້າ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
@@ -158,7 +143,7 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Purchased"
-msgstr ""
+msgstr "ຊື້ແລ້ວ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
@@ -226,24 +211,24 @@ msgstr ""
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Vendor"
-msgstr ""
+msgstr "ຜູ້ສະໜອງ"
+
+#. module: spreadsheet_dashboard_purchase
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_purchase.spreadsheet_dashboard_vendors
+msgid "Vendors"
+msgstr "ຜູ້ສະໜອງ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "last period"
-msgstr ""
+msgstr "ງວດທີ່ຜ່ານມາ"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "since last period"

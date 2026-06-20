@@ -1,29 +1,29 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet_dashboard_pos_hr
-# 
+#
 # Translators:
-# Marius Stedjan <marius@stedjan.com>, 2022
-# Martin Trigaux, 2022
+# Marius Stedjan <marius@stedjan.com>, 2024
+# Martin Trigaux, 2024
 # Rune Restad, 2025
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-06 13:32+0000\n"
-"PO-Revision-Date: 2022-09-29 09:44+0000\n"
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Rune Restad, 2025\n"
-"Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/"
+"nb/)\n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Average order"
@@ -31,7 +31,6 @@ msgstr "Gjennomsnittlig ordre"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Current"
@@ -75,11 +74,6 @@ msgstr "Ordre"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Orders"
 msgstr "Ordrer"
@@ -108,8 +102,7 @@ msgstr "Periode"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_pos_hr.spreadsheet_dashboard_pos
 #, python-format
 msgid "Point of Sale"
 msgstr "Kasse"
@@ -145,14 +138,12 @@ msgstr "Analyse av salgspunkt etter bruker"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Previous"
 msgstr "Tilbake"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Product"
@@ -161,7 +152,6 @@ msgstr "Produkt"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Responsible"
 msgstr "Ansvarlig"
@@ -169,18 +159,12 @@ msgstr "Ansvarlig"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Revenue"
 msgstr "Omsetning"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Session"
@@ -198,7 +182,7 @@ msgstr "Økter"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Top Orders"
-msgstr "Top ordre"
+msgstr "Topp ordre"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
@@ -237,8 +221,6 @@ msgstr "Total"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "since last period"

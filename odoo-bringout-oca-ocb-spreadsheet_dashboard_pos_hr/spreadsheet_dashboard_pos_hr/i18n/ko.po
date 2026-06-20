@@ -1,29 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet_dashboard_pos_hr
-# 
+#
 # Translators:
-# Martin Trigaux, 2022
-# Sarah Park, 2023
-# Daye Jeong, 2023
-# 
+# Wil Odoo, 2023
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-06 13:32+0000\n"
-"PO-Revision-Date: 2022-09-29 09:44+0000\n"
-"Last-Translator: Daye Jeong, 2023\n"
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2023-10-26 23:09+0000\n"
+"Last-Translator: Wil Odoo, 2023\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Average order"
@@ -31,7 +28,6 @@ msgstr "평균 주문"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Current"
@@ -49,7 +45,7 @@ msgstr "고객"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Date"
-msgstr "일자"
+msgstr "날짜"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
@@ -74,11 +70,6 @@ msgstr "주문"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Orders"
@@ -108,8 +99,7 @@ msgstr "기간"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_pos_hr.spreadsheet_dashboard_pos
 #, python-format
 msgid "Point of Sale"
 msgstr "POS"
@@ -119,14 +109,14 @@ msgstr "POS"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Point of Sale Analysis by Point of Sale"
-msgstr "점포판매시스템별 POS 분석"
+msgstr "매장별 점포판매시스템 분석"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Point of Sale Analysis by Product"
-msgstr "품목별 POS 분석"
+msgstr "품목별 점포판매시스템 분석"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
@@ -145,14 +135,12 @@ msgstr "사용자별 점포판매시스템 분석"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Previous"
 msgstr "이전"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Product"
@@ -161,7 +149,6 @@ msgstr "품목"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Responsible"
 msgstr "담당자"
@@ -169,18 +156,12 @@ msgstr "담당자"
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Revenue"
-msgstr "수익"
+msgstr "매출액"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Session"
@@ -205,7 +186,7 @@ msgstr "주문 순위"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Top Points of Sale"
-msgstr "상위 점포판매시스템"
+msgstr "점포판매시스템 순위"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
@@ -219,26 +200,24 @@ msgstr "제품 순위"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Top Responsibles"
-msgstr "상위 책임자"
+msgstr "책임자 순위"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Top Sessions"
-msgstr "상위 세션"
+msgstr "세션 순위"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "Total"
-msgstr "합계"
+msgstr "총계"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
-#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #, python-format
 msgid "since last period"

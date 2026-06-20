@@ -1,29 +1,33 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* spreadsheet_dashboard_purchase
+# * spreadsheet_dashboard_purchase
 #
+# Odoo Translation Bot <c3p@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 10:43+0000\n"
-"PO-Revision-Date: 2024-01-25 10:43+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-04-24 13:42+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-17/"
+"spreadsheet_dashboard_purchase/bs/>\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid " days"
-msgstr " dana"
+msgstr ""
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -31,7 +35,6 @@ msgstr " dana"
 msgid "Amount"
 msgstr "Iznos"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -39,7 +42,6 @@ msgstr "Iznos"
 msgid "Buyer"
 msgstr "Kupac"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -47,37 +49,34 @@ msgstr "Kupac"
 msgid "Country"
 msgstr "Država"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Current"
-msgstr "Trenutno"
+msgstr "Tekući"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Days to receive"
-msgstr "Dani do primanja"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "KPI"
-msgstr "KPI"
+msgstr ""
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Lines"
-msgstr "Stavke"
+msgstr "Retci"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -85,7 +84,6 @@ msgstr "Stavke"
 msgid "Order"
 msgstr "Nalog"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -93,7 +91,6 @@ msgstr "Nalog"
 msgid "Ordered"
 msgstr "Naručeno"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -106,9 +103,8 @@ msgstr "Narudžbe"
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Period"
-msgstr ""
+msgstr "Period"
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -121,52 +117,50 @@ msgstr "Prethodni"
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Purchase Analysis by Partner Country"
-msgstr "Analiza kupovine po zemlji partnera"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Purchase Analysis by Purchase Representative"
-msgstr "Analiza kupovine po predstavniku nabavke"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Purchase Analysis by Vendor"
-msgstr "Analiza kupovine po dobavljaču"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Purchase Orders by Untaxed Amount"
-msgstr "Narudžbe za kupovinu po neoporezovanom iznosu"
+msgstr ""
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Purchased"
-msgstr "Kupljen"
+msgstr "Kupljeno"
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Qty ordered"
-msgstr "Naručena količina"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Quantity ordered"
-msgstr "Naručena količina"
+msgstr ""
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -179,44 +173,43 @@ msgstr "Izvor"
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Sourcing by Country"
-msgstr "Nabavka po zemlji"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Top Buyers"
-msgstr "Najbolji kupci"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Top Orders"
-msgstr "Najveće narudžbe"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Top Vendors"
-msgstr "Najbolji dobavljači"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Top Vendors by Amount"
-msgstr "Najbolji dobavljači po iznosu"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "Untaxed total"
-msgstr "Ukupno neoporezirano"
+msgstr ""
 
-# taken from hr.po
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
@@ -225,29 +218,34 @@ msgid "Vendor"
 msgstr "Dobavljač"
 
 #. module: spreadsheet_dashboard_purchase
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_purchase.spreadsheet_dashboard_vendors
+msgid "Vendors"
+msgstr "Dobavljači"
+
+#. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "last period"
-msgstr "prošli period"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "since last period"
-msgstr "od prošlog perioda"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "stats - current"
-msgstr "statistike - trenutne"
+msgstr ""
 
 #. module: spreadsheet_dashboard_purchase
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_purchase/data/files/vendors_dashboard.json:0
 #, python-format
 msgid "stats - previous"
-msgstr "statistike - prethodne"
+msgstr ""
